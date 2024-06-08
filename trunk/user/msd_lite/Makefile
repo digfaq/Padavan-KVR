@@ -10,7 +10,7 @@ download_test:
 	(       cd $(SRC_NAME) ; \
 		git submodule update --init --recursive ; \
 		patch -p1 -i ../msd_lite.diff ; \
-	fi )
+	 )
 
 config_test:
 	( if [ -f ./config_done ]; then \
